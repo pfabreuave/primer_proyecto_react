@@ -1,0 +1,67 @@
+
+body {
+  background-color: #2e3338;
+}
+
+header {
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  color: #e61c83;
+}
+
+.errorText {
+  color: red;
+}
+
+.formContainer {
+  margin: auto;
+  text-align: center;
+}
+.userInput {
+  flex: 1;
+  height: 32px;
+  padding: 0 40px;
+  background: #fff;
+  bottom: 0;
+  color: #444;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.searchButton {
+  width: 150px;
+  height: 42px;
+  padding: 10px;
+  margin-left: 15px;
+  background: #e61c83;
+  color: #fff;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.repoListContainer {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  line-height: 4;
+  height: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.card{
+	justify-content: center;
+	align-content: center;
+  background: #fff;
+	width: 260px;
+	height: 80px;
+	border-radius: 12px;
+	border: solid 2px #444;
+	margin: 10px auto;	
+}
